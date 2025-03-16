@@ -1,7 +1,7 @@
 Advanced AI Trip Planner
 =======================
 
-AI Planner is a travel planning app built with React, Gemini AI, Firebase, and TailwindCSS. This guide will help you set up and run the project in your own environment, like VS Code.
+AI Planner is a travel planning app built with React, Gemini AI, Firebase, and TailwindCSS. This guide will help you set up and run the project in your own environment.
 
 Features
 =======================
@@ -54,6 +54,7 @@ Getting Started
 
 * Set up your Firebase configuration in service/firebaseConfig.js. It should look something like this:
 
+```javascript
 const firebaseConfig = {
   apiKey: "your_api_key",
   authDomain: "your_auth_domain",
