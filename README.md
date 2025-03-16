@@ -65,6 +65,8 @@ const firebaseConfig = {
   measurementId: "your_measurement_id"
 };
 export default firebaseConfig;
+```
+
 
 Note: You must generate your own Firebase and Google API keys. The API keys in this project are not included for security reasons.
 
