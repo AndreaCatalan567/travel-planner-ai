@@ -15,7 +15,7 @@ function Hero() {
     <Button className=' text-red-300'> Get Started </Button>
     </Link>
     
-    <img className="flex flex-col items-center mt-10" src="/front-laptop.png" alt="" />
+    <img className="flex flex-col items-center mt-10 mb-20" src="/front-laptop.png" alt="" />
     </div>
 
   )

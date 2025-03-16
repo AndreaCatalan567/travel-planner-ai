@@ -17,15 +17,15 @@ function PlacesToVisit({ trip }) {
           })
           .map(([day, details], index) => (
             <div className='mt-5' key={index}>
-              <h2 className="font-bold text-lg capitalize text-red-400 ">{day}</h2>
-              
+              <h2 className="p-1 px-3 bg-red-100 font-semibold rounded-full text-lg capitalize text-red-400 text-center ">{day}</h2>
               <div className='grid grid-cols-2 gap-5'>
               {details.activities?.map((place, idx) => (
                 <div key={idx} className="mb-4 my-3">
-                  <h2 className="font-medium text-sm text-red-700">
+            
+                  <PlaceCardItem place = {place}/>
+                  <h2 className="font-medium text-sm text-red-700 mt-5">
                     {`Best Time to Visit: ${place.bestTimeToVisit}`}
                   </h2>
-                  <PlaceCardItem place = {place}/>
                 </div>
               ))}
                 </div>

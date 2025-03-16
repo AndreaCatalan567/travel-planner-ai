@@ -3,6 +3,11 @@
 
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

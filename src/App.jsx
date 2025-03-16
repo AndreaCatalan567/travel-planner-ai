@@ -12,6 +12,8 @@ function App() {
     <>
     {/* Hero */}
     <Hero/>
+
+    
     </>
   )
 }
