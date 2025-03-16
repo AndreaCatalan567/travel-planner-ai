@@ -35,6 +35,9 @@ Getting Started
 2. Install Dependencies
 
 * npm install
+* npm install tailwindcss @tailwindcss/vite
+* npm install @react-oauth/google axios firebase react-icons react-router-dom sonner
+* npm install @shadcn/ui
 
 3. Set Up Firebase & Google API
 
